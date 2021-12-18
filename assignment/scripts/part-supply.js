@@ -103,3 +103,15 @@ console.log('The total number of parts available are:', sum);
 //    Then log how many boxes were filled, and how many parts are left over.
 
 console.log('9. Filling boxes with a "while" loop');
+
+let parts = 572;
+let partsPerBox = 7;
+let boxes = [];
+
+while (parts >= 7) {
+  parts-=partsPerBox;
+  boxes.push(partsPerBox);
+}
+
+console.log(`${boxes.length} boxes were filled.`);
+console.log(`${parts} parts remain after filling boxes with ${partsPerBox} parts per box.`);
