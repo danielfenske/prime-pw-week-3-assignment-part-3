@@ -1,5 +1,17 @@
 /* give your assignment a fun background color */
 
 body {
-  background-color: pink;
+  background-color: #6667AB;
+}
+
+p, h1, h2 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding: 15%;
+  margin: auto;
+  width: 25%
 }

@@ -108,10 +108,11 @@ let parts = 572;
 let partsPerBox = 7;
 let boxes = [];
 
-while (parts >= 7) {
+while (parts >= partsPerBox) {
   parts-=partsPerBox;
   boxes.push(partsPerBox);
 }
 
+console.log(boxes);
 console.log(`${boxes.length} boxes were filled.`);
 console.log(`${parts} parts remain after filling boxes with ${partsPerBox} parts per box.`);
