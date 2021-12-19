@@ -40,6 +40,7 @@ console.log('New array:', supplyChanges);
 
 console.log('5. Adding 25 to supplyChanges.');
 supplyChanges.push(25);
+console.log('Added value:', supplyChanges[5]);
 console.log(supplyChanges);
 
 
