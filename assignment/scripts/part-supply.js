@@ -28,10 +28,11 @@ console.log(supplyChanges[1]); //Output: 5
 
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges'
 //    array & console.log the value removed.
+console.log(supplyChanges);
+let removedValue = supplyChanges.pop();
 
 console.log('4. Removed item:');
-console.log(supplyChanges);
-console.log('Removed value:', supplyChanges.pop());
+console.log('Removed value:', removedValue);
 console.log('New array:', supplyChanges);
 
 
@@ -115,5 +116,5 @@ while (parts >= partsPerBox) {
 }
 
 console.log(boxes);
-console.log(`${boxes.length} boxes were filled.`);
-console.log(`${parts} parts remain after filling boxes with ${partsPerBox} parts per box.`);
+console.log(`${boxes.length} boxes were filled.`); //Statement output: 81 boxes filled
+console.log(`${parts} parts remain after filling boxes with ${partsPerBox} parts per box.`); //Statement output: 5 parts remain
